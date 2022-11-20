@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(54, 48, 48);
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+main #main-container {
+  min-width: 600px;
+  height: 100vh;
+  background-color: rgb(54, 48, 48);
+}
+main #main-container #entry-section #p-float-right {
+  float: right;
+  padding: 1em;
+}
+main #main-container #entry-section #again {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  margin: 2em 0 0 2em;
+  border: none;
+  background-color: white;
+  color: rgb(54, 48, 48);
+  border: 3px solid white;
+  font-family: "Press Start 2P", cursive;
+}
+main #main-container #entry-section #again:hover {
+  cursor: pointer;
+}
+main #main-container #entry-section #h1-div {
+  text-align: center;
+  margin: 3em 0;
+}
+main #main-container #function-section {
+  text-align: center;
+}
+main #main-container #function-section #question-mark-div {
+  max-width: 100px;
+  margin: auto;
+  padding: 0.5em 0.9em;
+  color: rgb(54, 48, 48);
+  background-color: white;
+  font-size: 2em;
+}
+main #main-container #function-section #function-div-check-and-score {
+  display: flex;
+}
+main #main-container #function-section #function-div-check-and-score .function-box {
+  width: 100%;
+  height: auto;
+}
+main #main-container #function-section #function-div-check-and-score .function-box #input-number {
+  margin-top: 1em;
+  padding: 0.2em 0em;
+  font-size: 2em;
+  width: 147px;
+  background-color: rgb(54, 48, 48);
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+main #main-container #function-section #function-div-check-and-score .function-box #check {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border: none;
+  background-color: white;
+  color: rgb(54, 48, 48);
+  border: 3px solid white;
+  font-family: "Press Start 2P", cursive;
+}
+main #main-container #function-section #function-div-check-and-score .function-box #check:hover {
+  cursor: pointer;
+}
+main #main-container #function-section #function-div-check-and-score .function-box:nth-of-type(2) {
+  margin-top: 2em;
+}
+main #main-container #function-section #function-div-check-and-score .function-box:nth-of-type(2) p {
+  padding: 0.5em 0;
+}
+main #main-container #function-section #function-div-check-and-score .function-box:nth-of-type(2) p:nth-of-type(1) {
+  padding: 1.2em 0 3em 0;
+}/*# sourceMappingURL=style.css.map */

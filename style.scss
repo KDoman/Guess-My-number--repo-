@@ -1,0 +1,99 @@
+$dark-solor: rgb(54, 48, 48);
+$font-fam: 'Press Start 2P', cursive;
+
+@mixin flexCenter() {
+    display:flex;
+    justify-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    @include flexCenter();
+    background-color: $dark-solor;
+    color:white;
+    font-family: $font-fam;
+    #main-container {
+        min-width: 600px;
+        height: 100vh;
+        background-color: $dark-solor;
+        #entry-section{
+            #p-float-right{
+                float:right;
+                padding:1em;
+            }
+            #again{
+                font-size: 1em;
+                padding:0.5em 1em;
+                margin: 2em 0 0 2em;
+                border: none;
+                background-color: white;
+                color:$dark-solor;
+                border:3px solid white;
+                font-family: $font-fam;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            #h1-div{
+                text-align: center;
+                margin: 3em 0;
+            }
+        }
+        #function-section{
+            text-align: center;
+            #question-mark-div{
+                max-width: 100px;
+                margin:auto;
+                padding: 0.5em 0.9em;
+                color: $dark-solor;
+                background-color: white;
+                font-size: 2em;
+            }
+            #function-div-check-and-score{
+                display:flex;   
+                .function-box{
+                    width: 100%;
+                    height: auto;
+                    #input-number{
+                        margin-top: 1em;
+                        padding: 0.2em 0em;
+                        font-size: 2em;
+                        width: 147px;
+                        background-color: $dark-solor;
+                        font-family: $font-fam;
+                        color:white;
+                        text-align: center;
+                        border: 3px solid white;
+                    }
+                    #check{
+                        font-size: 1em;
+                        padding:0.5em 1em;
+                        margin: 2em 0;
+                        border: none;
+                        background-color: white;
+                        color:$dark-solor;
+                        border:3px solid white;
+                        font-family: $font-fam;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                    &:nth-of-type(2){
+                        margin-top: 2em;
+                        p{
+                            padding: 0.5em 0;
+                            &:nth-of-type(1){
+                                padding: 1.2em 0 3em 0;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
